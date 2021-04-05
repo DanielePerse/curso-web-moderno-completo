@@ -4,8 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Herança</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
     <style>
-        /* ... */
+        /* https://fonts.google.com/ */
+        body {
+            font-family: 'Oswald', sans-serif;
+            font-size: 40px;
+            border: solid 3px red;
+            padding: 50px;
+        }
+
+        div {
+            /* inherit -> estou mostrando que quero trazer minha herança */
+            /* umas propriedades são herdadas por herança e outras não! vc precisa explicitamento dizer que vc quer herdar */
+            border: inherit;
+            padding: inherit;
+        }
     </style>
 </head>
 
