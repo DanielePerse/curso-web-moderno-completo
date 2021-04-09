@@ -4,8 +4,27 @@
     <meta charset="UTF-8">
     <title>Tamanho Box</title>
     <style>
+
+        /*
+        *colocou um seletor universal, pois assim consegue aplicar a todos os outros elementos.
+        *Não foi possível usar no boy, pois essa é uma propriedade que não passa a herança para
+        *frente.
+        */
+        * {
+            box-sizing: border-box;
+        }
+
         body {
             font-size: 45px;
+            margin: 0;
+        }
+
+        div {
+            background-color: deepskyblue;
+            width: 100%;
+            height: 300px;
+            padding: 100px;
+            border: solid 20px;
         }
     </style>
 </head>
